@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio Manuella</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Img/Logo.png" type="image/x-icon">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="Img/Logo.png" alt="Logo">
+      <h1>🌸 Meu Portfólio 🌸</h1>
+    </div>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Nome e imagem -->
+  <main>
+    <div class="titulo">
+      <span class="ano1">2025</span>
+      <h2>Manuella</h2>
+    </div>
+    <div class="foto">
+      <img src="Img/Velarys.jpeg" alt="Imagem Manuella">
+    </div>
+    <p class="bemvindo">Bem Vindo!</p>
+  </main>
+
+  <section id="sobre" class="sobre">
+  <div class="sobre-box">
+    <div class="sobre-texto">
+      <h3>Bem Vindo!</h3>
+      <p>
+        Oii, eu sou a Manuella! <br>
+        Aqui no meu portfólio você vai encontrar alguns dos meus projetos, tanto os que desenvolvi no curso quanto trabalhos pessoais.
+      </p>
+      <p>
+        Quando me inscrevi na ETEC para fazer Informática para Internet, essa não era minha primeira opção. Como o curso que eu queria não estava disponível, resolvi tentar este e acabei me surpreendendo. Apesar de ter partes que não gosto tanto, descobri que a área de design é a que mais me encanta dentro do curso.
+      </p>
+      <p>
+        Outro ponto importante sobre mim é meu hobby de desenhar. Desde pequena sempre gostei de colocar minhas ideias no papel, mas comecei a me dedicar de verdade em 2020, copiando desenhos que eu via. O mais difícil para mim foi encontrar meu próprio traço, algo que consegui definir apenas em 2024, depois de muitas tentativas e inspirações.
+      </p>
+      <p>
+        Essas são as principais coisas que gostaria de compartilhar por aqui. Espero que goste do meu portfólio.
+      </p>
+    </div>
+    <div class="sobre-img">
+      <img src="Img/Chibi 2002.png" alt="Personagem Manuella">
+    </div>
+  </div>
+</section>
+
+<section id="projetos" class="projetos">
+  <h2>Meus Projetos</h2>
+  <div class="projetos-container">
+    <div class="galeria">
+      <!--  abrirMenu() por abrirDescricao() com número -->
+      <div class="card" onclick="abrirDescricao(1)">
+        <img src="Img/Site.png" alt="Projeto 1">
+        <h2>Meu Primeiro Site</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(2)">
+        <img src="Img/SoundPulse.png" alt="Projeto 2">
+        <h2>SoundPulse</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(3)">
+        <img src="Img/QUIZHUB.png" alt="Projeto 3">
+        <h2>QUIZHUB</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(4)">
+        <img src="Img/Sweet Pudding logo.png" alt="Projeto 4">
+        <h2>Sweet Pudding</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(5)">
+        <img src="Img/Hotel.png" alt="Projeto 5">
+        <h2>Celeste Hotel</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(6)">
+        <img src="Img/Inovati.png" alt="Projeto 6">
+        <h2>InovaTI</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(7)">
+        <img src="Img/Whatsapp.png" alt="Projeto 7">
+        <h2>Whatsapp</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(8)">
+        <img src="Img/Imaginação Criativa.png" alt="Projeto 8">
+        <h2>Imaginação Criativa</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(9)">
+        <img src="Img/Amor Açucarado.png" alt="Projeto 9">
+        <h2>Amor Açucarado</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chibi do lado -->
+  <div class="chibi">
+    <img src="Img/Chibi 1920.png" alt="Chibi Manuella">
+  </div>
+</section>
+
+<!-- Menu lateral adicionado -->
+<div id="descricao" class="menu">
+  <button class="fechar" onclick="fecharDescricao()">×</button>
+  <h2 id="titulo-projeto">Título</h2>
+  <p id="texto-projeto">Descrição do projeto...</p>
+  <a id="link-projeto" href="#" target="_blank">
+    <button>Ver Projeto</button>
+  </a>
+</div>
+
+<section class="desenhos">
+  <h2>Meus Desenhos</h2>
+  <div class="desenhos-container">
+    <a href="desenhos Manual.html">
+      <img src="img/Desenho Manual.png" alt="Desenhos Físicos" class="quadro">
+    </a>
+    
+    <img src="img/Chibi 1950.png" alt="Bonequinha" class="bonequinha">
+    
+    <a href="desenhos digital.html">
+      <img src="img/Desenhos Digitais.png" alt="Desenhos Digitais" class="quadro">
+    </a>
+  </div>
+
+</section>
+
+<div class="container">
+    <!-- Balão de fala -->
+    <div class="balao">
+      Ficou curioso por que eu apareci pelo site todo?<br>
+      Para saber mais...
+      <br><br>
+      <a href="Velarys.html" class="botao">Clique aqui</a>
+    </div>
+
+    <!-- Personagem -->
+    <img src="Img/Chibi 1900.png" alt="Personagem" class="personagem">
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-top">
+      <h3>Contato</h3>
+      <p>@m4h_sc</p>
+      <p>manusliveiradecarvalho@gmail.com</p>
+    </div>
+    <div class="footer-bottom">
+      <p>🌸 Feito por Manuella 🌸</p>
+    </div>
+  </footer>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
+
