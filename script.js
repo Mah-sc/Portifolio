@@ -13,7 +13,7 @@ function abrirDescricao(id) {
   descricao.classList.add("ativo"); // ARRUMADO: classe correta
 
   const projetos = {
-    1: {titulo: "Meu primeiro Site", texto: "Esse foi meu primeiro projeto, onde nós tinhamos que fazer ele em HTML, e tinha que ter, um cor de fundo, uma imagem, uma segunda página e um Rodapé.", link: "file:///D:/IW/Robin/index.html"},
+    1: {titulo: "Meu primeiro Site", texto: "Esse foi meu primeiro projeto, onde nós tinhamos que fazer ele em HTML, e tinha que ter, um cor de fundo, uma imagem, uma segunda página e um Rodapé.", link: "mah-sc.github.io/Primeiro/"},
     2: {titulo: "SoudPulse", texto: "Esse projeto o principal objetivo dele, era fazer um site sobre música usando FlexBox, esse foi um projeto em grupo de 5 pessoas, e eu fiquei responsável pela Home, a parte do Eminem e do Queen, nesse site foi utilizado HTML e CSS.", link: "file:///D:/IW/Site%20-%20FlexBox/index.html"},
     3: {titulo: "QUIZHUB", texto: "Esse foi um projeto em quarteto, onde tinhamos que fazer um quiz, ele foi utilizado HTML, CSS e JavaScript.", link: "file:///D:/fi/QUIZ%20FI%20-%20IW%20I/testee/index.html"},
     4: {titulo: "Sweet Pudding", texto: "Esse foi um projeto bem extenso, onde tinhamos que fazer um site sobre pudim, primeiro tive que fazer a logo, depois fazer o protótipo do site e do App, e por ultimo nós tivemos que progamar ele.", link: "file:///D:/APW/Pudim/Versadus/index.html"},
@@ -33,4 +33,5 @@ function fecharDescricao() {
   const descricao = document.getElementById("descricao");
   descricao.classList.remove("ativo"); // mesma classe usada no CSS
 }
+
 
